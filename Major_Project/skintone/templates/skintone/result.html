@@ -1,0 +1,115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detectskin</title>
+    <script src="https://kit.fontawesome.com/f2d84446ed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'skintone/home/css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'skintone/home/css/styles.css' %}" />
+    <link rel="stylesheet" href="{% static 'skintone/result/css/result.css' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="{% url 'skin:home' %}"><p id="logo">detect-skin</p></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="{% url 'skin:home' %}">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'skin:home' %}">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'skin:readmore' %}">Read More</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'skin:home' %}">Contact Us </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="page-header gradient">
+      <div class="container pt-3">
+        <div class="row align-items-center justify-content-center">
+              <br><br><br><br><br><br>
+            <div class="model">
+              <img src="{% static 'skintone/home/img/marketing.svg' %}" alt="Header image">
+            </div>
+            <h2>Your SkinTone is :{{ ans }}</h2>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            </div>
+            </header>
+          
+
+    <footer class="gradient">
+      <div class="container-fluid text-center">
+        <span
+          >Submitted By:
+          <a class="grp" href="#">Human Skintone Group B8</a></span
+        >
+      </div>
+    </footer>
+    <script>
+        const inpFile = document.getElementById("inputFile");
+        const previewContainer = document.getElementById("imagePreview");
+        const previewImage = previewContainer.querySelector(".image-preview__image");
+        const previewDefaultText = previewContainer.querySelector(".image-preview__default-text");
+
+        inputFile.addEventListener("change", function() {
+          const file = this.files[0];
+          if (file) {
+            const reader = new FileReader();
+
+            previewDefaultText.style.display = "none";
+            previewImage.style.display = "block";
+
+            reader.addEventListener("load", function() {
+              console.log(this);
+              previewImage.setAttribute("src", this.result);
+            });
+            reader.readAsDataURL(file);
+          }
+
+        });
+        </script>
+    <script src="{% static 'skintone/home/js/bootstrap.min.js' %}"></script>
+  </body>
+  <style>
+    a.grp:hover {color: yellow;}
+    .btn-grid
+{
+    margin: -2px 0;
+}
+
+.btn-grid > .btn
+{
+    margin: 2px 0;
+}
+  </style>
+  
+</html>
