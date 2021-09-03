@@ -9,8 +9,11 @@ Before running the project, you need to install some modules:-
  1.  Install Vs code 
 
  - If you do not have Anaconda, only python then follow these steps:
+ 
   ● Right click on windows icon
+  
 ● Go to "Windows Powershell (Admin)"
+
 ● Then run the following commands-
 	 - - ❖ Cv2: pip install opencv-contrib-python 
 	- - ❖ Imutils: pip install imutils 
@@ -20,8 +23,11 @@ Before running the project, you need to install some modules:-
 
 - If you are using Anaconda, then follow these steps:
 ● Goto start menu in windows
+
 ● Right click on "Anaconda Powershell Prompt"
+
 ● Click "Run as Administrator"
+
 ● Then run the following commands-
 - - ❖ Conda update conda
 - - ❖ Conda update anaconda
