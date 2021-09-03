@@ -32,12 +32,12 @@ Before running the project, you need to install some modules:-
 
 ● Then run the following commands-
 
-- - ❖ Conda update conda
-- - ❖ Conda update anaconda
-- - ❖ Conda install pip
-- - ❖ Cv2: pip install opencv-contrib-python
-- - ❖ Imutils: pip install imutils
-- - ❖ Numpy: pip install numpy
-- - ❖ matplotlib: pip install matplotlib
-- - ❖ Sklearn: pip install scikit-learn
+	- - ❖ Conda update conda
+	- - ❖ Conda update anaconda
+	- - ❖ Conda install pip
+	- - ❖ Cv2: pip install opencv-contrib-python
+	- - ❖ Imutils: pip install imutils
+	- - ❖ Numpy: pip install numpy
+	- - ❖ matplotlib: pip install matplotlib
+	- - ❖ Sklearn: pip install scikit-learn
 
