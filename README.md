@@ -12,11 +12,11 @@ Before running the project, you need to install some modules:-
   ● Right click on windows icon
 ● Go to "Windows Powershell (Admin)"
 ● Then run the following commands-
-	 -  -❖ Cv2: pip install opencv-contrib-python 
-		❖ Imutils: pip install imutils 
-		❖ Numpy: pip install numpy 
-		❖ matplotlib: pip install matplotlib 
-		❖ Sklearn: pip install scikit-learn
+	 - - ❖ Cv2: pip install opencv-contrib-python 
+	- - ❖ Imutils: pip install imutils 
+	- - ❖ Numpy: pip install numpy 
+	- - ❖ matplotlib: pip install matplotlib 
+	- - ❖ Sklearn: pip install scikit-learn
 
 - If you are using Anaconda, then follow these steps:
 ● Goto start menu in windows
@@ -24,11 +24,11 @@ Before running the project, you need to install some modules:-
 ● Click "Run as Administrator"
 ● Then run the following commands-
 - - ❖ Conda update conda
-❖ Conda update anaconda
-❖ Conda install pip
-❖ Cv2: pip install opencv-contrib-python
-❖ Imutils: pip install imutils
-❖ Numpy: pip install numpy
-❖ matplotlib: pip install matplotlib
-❖ Sklearn: pip install scikit-learn
+- - ❖ Conda update anaconda
+- - ❖ Conda install pip
+- - ❖ Cv2: pip install opencv-contrib-python
+- - ❖ Imutils: pip install imutils
+- - ❖ Numpy: pip install numpy
+- - ❖ matplotlib: pip install matplotlib
+- - ❖ Sklearn: pip install scikit-learn
 
