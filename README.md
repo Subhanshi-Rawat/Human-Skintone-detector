@@ -41,3 +41,9 @@ Before running the project, you need to install some modules:-
 	- - ❖ matplotlib: pip install matplotlib
 	- - ❖ Sklearn: pip install scikit-learn
 
+# Using the website
+
+<img width="590" alt="1" src="https://user-images.githubusercontent.com/64420869/132184374-63c97554-efaa-448e-bc99-b201eaef9e4b.png">
+<img width="538" alt="2" src="https://user-images.githubusercontent.com/64420869/132184669-5162fddf-f887-46e7-86f0-05ad749411d9.png">
+<img width="596" alt="3" src="https://user-images.githubusercontent.com/64420869/132184678-f528a999-d879-445d-b312-fc8f2a08c450.png">
+<img width="586" alt="4" src="https://user-images.githubusercontent.com/64420869/132184683-a2a88dcc-0fd5-4b8f-8e81-757d452bea2d.png">
